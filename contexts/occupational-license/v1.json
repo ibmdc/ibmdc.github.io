@@ -2,64 +2,49 @@
 	"@context": {
 		"schema": "http://schema.org/",
 		"givenName": {
-			"@id": "schema:givenName",
-			"@type": "@id"
+			"@type": "schema:givenName"
 		},
 		"familyName": {
-			"@id": "schema:familyName",
-			"@type": "@id"
+			"@type": "schema:familyName"
 		},
 		"idNum": {
-			"@id": "schema:identifier",
-			"@type": "@id"
+			"@type": "schema:identifier"
 		},
 		"portraitImageURL": {
-			"@id": "schema:url",
-			"@type": "@id"
+			"@type": "schema:url"
 		},
 		"occupation": {
-			"@id": "schema:occupation",
-			"@type": "@id"
+			"@type": "schema:occupation"
 		},
 		"licenseeAddress": {
-			"@id": "schema:address",
-			"@type": "@id"
+			"@type": "schema:address"
 		},
 		"encodedPortraitImage": {
-			"@id": "schema:image",
-			"@type": "@id"
+			"@type": "schema:image"
 		},
 		"businessName": {
-			"@id": "schema:identifier",
-			"@type": "@id"
+			"@type": "schema:identifier"
 		},
 		"businessAddress": {
-			"@id": "schema:address",
-			"@type": "@id"
+			"@type": "schema:address"
 		},
 		"streetAddress1": {
-			"@id": "schema:streetAddress",
-			"@type": "@id"
+			"@type": "schema:streetAddress"
 		},
 		"streetAddress2": {
-			"@id": "schema:streetAddress",
-			"@type": "@id"
+			"@type": "schema:streetAddress"
 		},
 		"addressLocality": {
-			"@id": "schema:addressLocality",
-			"@type": "@id"
+			"@type": "schema:addressLocality"
 		},
 		"addressRegion": {
-			"@id": "schema:addressRegion",
-			"@type": "@id"
+			"@type": "schema:addressRegion"
 		},
 		"addressCountry": {
-			"@id": "schema:addressCountry",
-			"@type": "@id"
+			"@type": "schema:addressCountry"
 		},
 		"postalCode": {
-			"@id": "schema:postalCode",
-			"@type": "@id"
+			"@type": "schema:postalCode"
 		}
 	}
 }
