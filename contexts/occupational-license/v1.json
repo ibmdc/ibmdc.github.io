@@ -1,7 +1,5 @@
 {
 	"@context": {
-		"id": "@id",
-		"type": "@type",
 		"license": {
 			"@id": "https://ibmdc.github.io/contexts/occupational-license/v1.json",
 			"@context": {
