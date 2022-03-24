@@ -1,23 +1,5 @@
 {
 	"@context": {
-		"id": "@id",
-        "type": "@type",
-		"schema": "http://schema.org/",
-		"license": "schema:license",
-		"givenName": "schema:givenName",
-		"familyName": "schema:familyName",
-		"idNum": "schema:identifier",
-		"portraitImageURL": "schema:url",
-		"occupation": "schema:occupation",
-		"licenseeAddress": "schema:address",
-		"encodedPortraitImage": "schema:image",
-		"businessName": "schema:identifier",
-		"businessAddress": "schema:address",
-		"streetAddress1": "schema:streetAddress",
-		"streetAddress2": "schema:streetAddress",
-		"addressLocality": "schema:addressLocality",
-		"addressRegion": "schema:addressRegion",
-		"addressCountry": "schema:addressCountry",
-		"postalCode": "schema:postalCode"
+		"license": "schema:license"
 	}
 }
