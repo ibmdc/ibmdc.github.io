@@ -9,7 +9,7 @@
 			"@id": "schema:familyName",
 			"@type": "@id"
 		},
-		"id": {
+		"idNum": {
 			"@id": "schema:identifier",
 			"@type": "@id"
 		},
