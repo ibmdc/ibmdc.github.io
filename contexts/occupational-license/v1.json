@@ -1,24 +1,27 @@
 {
 	"@context": {
+		"@version": 1.1,
+		"schema": "http://schema.org/",
+		"nyscred": "https://ibmdc.github.io/contexts/occupational-license/v1.json/#",
+		"nonTransferable": "nyscred:nonTransferable",
 		"license": {
-			"@id": "https://ibmdc.github.io/contexts/occupational-license/v1.json",
+			"@id": "nyscred:license",
 			"@context": {
-				"nyschema": "http://schema.org/",
-				"givenName": "nyschema:givenName",
-				"familyName": "nyschema:familyName",
-				"idNum": "nyschema:identifier",
-				"portraitImageURL": "nyschema:url",
-				"occupation": "nyschema:occupation",
-				"licenseeAddress": "nyschema:address",
-				"encodedPortraitImage": "nyschema:image",
-				"businessName": "nyschema:identifier",
-				"businessAddress": "nyschema:address",
-				"streetAddress1": "nyschema:streetAddress",
-				"streetAddress2": "nyschema:streetAddress",
-				"addressLocality": "nyschema:addressLocality",
-				"addressRegion": "nyschema:addressRegion",
-				"addressCountry": "nyschema:addressCountry",
-				"postalCode": "nyschema:postalCode"
+				"givenName": "schema:givenName",
+				"familyName": "schema:familyName",
+				"idNum": "schema:identifier",
+				"portraitImageURL": "schema:url",
+				"occupation": "schema:occupation",
+				"licenseeAddress": "schema:address",
+				"encodedPortraitImage": "schema:image",
+				"businessName": "schema:identifier",
+				"businessAddress": "schema:address",
+				"streetAddress1": "schema:streetAddress",
+				"streetAddress2": "schema:streetAddress",
+				"addressLocality": "schema:addressLocality",
+				"addressRegion": "schema:addressRegion",
+				"addressCountry": "schema:addressCountry",
+				"postalCode": "schema:postalCode"
 			}
 		}
 	}
