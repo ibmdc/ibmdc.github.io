@@ -1,5 +1,65 @@
 {
 	"@context": {
-		"id": "@id"
+		"schema": "http://schema.org/",
+		"givenName": {
+			"@id": "schema:givenName",
+			"@type": "@id"
+		},
+		"familyName": {
+			"@id": "schema:familyName",
+			"@type": "@id"
+		},
+		"id": {
+			"@id": "schema:identifier",
+			"@type": "@id"
+		},
+		"portraitImageURL": {
+			"@id": "schema:url",
+			"@type": "@id"
+		},
+		"occupation": {
+			"@id": "schema:occupation",
+			"@type": "@id"
+		},
+		"licenseeAddress": {
+			"@id": "schema:address",
+			"@type": "@id"
+		},
+		"encodedPortraitImage": {
+			"@id": "schema:image",
+			"@type": "@id"
+		},
+		"businessName": {
+			"@id": "schema:identifier",
+			"@type": "@id"
+		},
+		"businessAddress": {
+			"@id": "schema:address",
+			"@type": "@id"
+		},
+		"streetAddress1": {
+			"@id": "schema:streetAddress",
+			"@type": "@id"
+		},
+		"streetAddress2": {
+			"@id": "schema:streetAddress",
+			"@type": "@id"
+		},
+		"addressLocality": {
+			"@id": "schema:addressLocality",
+			"@type": "@id"
+		},
+		"addressRegion": {
+			"@id": "schema:addressRegion",
+			"@type": "@id"
+		},
+		"addressCountry": {
+			"@id": "schema:addressCountry",
+			"@type": "@id"
+		},
+		"postalCode": {
+			"@id": "schema:postalCode",
+			"@type": "@id"
+		}
 	}
 }
