@@ -6,6 +6,7 @@
 		"nonTransferable": "nyscred:nonTransferable",
 		"license": {
 			"@id": "nyscred:license",
+			"@type": "@id",
 			"@context": {
 				"givenName": "schema:givenName",
 				"familyName": "schema:familyName",
