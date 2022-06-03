@@ -1,0 +1,26 @@
+{
+    "@context": [
+      "https://www.w3.org/ns/did/v1",
+      "https://w3c-ccg.github.io/lds-jws2020/contexts/lds-jws2020-v1.json"
+    ],
+    "id": "did:web:ibmdc.github.io:qa:testdidweb",
+    "created": "2022-06-03T13:36:00.848Z",
+    "updated": "2022-06-03T13:36:00.848Z",
+    "verificationMethod": [
+      {
+        "type": "JsonWebKey2020",
+        "id": "did:web:ibmdc.github.io:qa:testdidweb#AKwLbE7GP3-J0WdY0M6cZ-pGBRFUmvgMKWy1Unzk1es",
+        "publicKeyJwk": {
+          "kty": "EC",
+          "kid": "AKwLbE7GP3-J0WdY0M6cZ-pGBRFUmvgMKWy1Unzk1es",
+          "crv": "P-256",
+          "x": "SwMWanI_qUNMU-VZc1cdvu4BjvhKEGLXmSrWonqxHLM",
+          "y": "70ivdr4lYfrjicmENztjryFdMd3nJkyU1cdcnOkxxkE"
+        },
+        "controller": "did:web:ibmdc.github.io:qa:testdidweb"
+      }
+    ],
+    "authentication": [],
+    "assertionMethod": [],
+    "service": []
+}
